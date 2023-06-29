@@ -108,6 +108,7 @@ public class VBTN_Industrial : MonoBehaviour
 
     public void Regresar(VirtualButtonBehaviour vb)
     {
+        HideAllMedia();
         main_menu.SetActive(true);
         self_menu.SetActive(false);
     }
